@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+h1, body{
+  color: #fff;
+}
+body{
+  background: rgba(31, 41, 55, 1);
+}
+
+#heading-green{
+  color: rgba(74, 223, 134, 1);
+}
+
+button{
+  background-color: rgba(74, 223, 134, 1);
+}
+
+#passwords{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-input{
+  background: rgba(39, 53, 73, 1);
+  height: 39px;
+  width: 211px;
+}

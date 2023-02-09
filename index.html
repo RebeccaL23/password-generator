@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div id="password-generator">
+        <h1>Generate a <span id="heading-green">random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <label for="fname">Number of characters</label>
+        <input id="character-length"></input>
+        <p>If you have not specified the number of characters, the password generated will be 6 characters long.</p>
+
+        <!-- <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+         -->
+        <button onClick="generatePasswords()">Generate passwords</button>
+        <hr>
+        <div id="passwords">
+          <p class="password-input" id="password1"></p>
+          <p class="password-input" id="password2"></p>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </body>
+</html>
