@@ -4,9 +4,17 @@ body {
 
 h1, body{
   color: #fff;
+  font-family: sans-serif;
 }
 body{
   background: rgba(31, 41, 55, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#password-generator{
+  width: 550px;
 }
 
 #heading-green{
@@ -27,4 +35,7 @@ button{
   background: rgba(39, 53, 73, 1);
   height: 39px;
   width: 211px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
