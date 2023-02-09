@@ -38,12 +38,3 @@ function generatePasswords() {
   password1El.textContent = passwordOne.join("")
   password2El.textContent = passwordTwo.join("")
 }
-
-// copy on click
-function copyPassword(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}

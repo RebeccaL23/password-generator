@@ -23,6 +23,10 @@ body{
 
 button{
   background-color: rgba(74, 223, 134, 1);
+  padding: 9px 17px 9px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 
 #passwords{
